@@ -1,0 +1,124 @@
+/* ====================== MOJ TTF FONT ====================== */
+@font-face {
+    font-family: 'PetraPenava.ttf';                  /* PetraPenava */
+    src: url('../fonts/PetraPenava.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ====================== BODY / POZADINA ====================== */
+body {
+    margin: 0;
+    font-family: 'Poppins', Arial, sans-serif; /* glavni font za ostatak teksta */
+    background-image: url("../slike/pozadina.jpg"); /* zamijeni svojom pozadinom */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #ffb6c1; /* svijetlo roza */
+}
+
+/* ====================== NAVIGACIJA ====================== */
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffb6c1; /* svijetlo roza */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff69b4; /* intenzivnija roza */
+}
+
+/* ====================== SADRŽAJ ====================== */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #ffb6c1;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* ====================== NASLOV IME I PREZIME ====================== */
+.naslov-ime {
+    font-family: 'PetraPenava', Arial, sans-serif; /* PetraPenava */
+    font-size: 48px;
+    color: #ffb6c1;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* ====================== GALERIJA O_MENI ====================== */
+.DMprojektnizadatak {
+    text-align: center;
+}
+
+.DMprojektnizadatak img {
+    display: inline-block;
+    width: 30%; /* 3 slike po redu */
+    height: auto;
+    margin: 1%;
+    border-radius: 8px;
+    vertical-align: top;
+}
+
+/* ====================== GALERIJA VJEŽBE ====================== */
+.vjezbe-galerija {
+    display: flex;           /* slike u red */
+    justify-content: center; /* centriranje galerije */
+    flex-wrap: wrap;         /* novi red ako ekran premali */
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.vjezbe-galerija img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* ====================== SVE OSTALE SLIKE ====================== */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ====================== VIDEO ====================== */
+video {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
