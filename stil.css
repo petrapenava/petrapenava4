@@ -1,7 +1,7 @@
 /* ====================== MOJ TTF FONT ====================== */
 @font-face {
     font-family: 'PetraPenava.ttf';                  /* PetraPenava */
-    src: url('../fonts/PetraPenava.ttf') format('truetype');
+    src: url('PetraPenava.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -10,7 +10,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', Arial, sans-serif; /* glavni font za ostatak teksta */
-    background-image: url("../slike/pozadina.jpg"); /* zamijeni svojom pozadinom */
+    background-image: url("pozadina.jpg"); /* zamijeni svojom pozadinom */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -121,4 +121,5 @@ video {
     margin: 20px auto;
     border-radius: 10px;
 }
+
 
